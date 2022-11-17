@@ -1,9 +1,9 @@
-import styles from './Header.module.css'
-import logo from '../assets/logo.svg'
+import styles from './Header.module.css';
+import logo from '../assets/logo.svg';
 export function Header() {
- return (
+  return (
     <header className={styles.header}>
-     <img src={logo}/>
+      <img src={logo} />
     </header>
-  )
+  );
 }
